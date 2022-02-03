@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #ececec;
+}
+.logo{
+    padding-left: 2em;
+}
+
+.logo-text{
+    font-size: 1.5em;
+}
+
+.menubar{
+    width: 45%;
+    padding-left: 8.5em;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list-items a{
+    color: black;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+
+.list-items a:hover{
+    color:gold;
+}
+
+
+.layer1 .layer2 .layer3{
+    background: black;
+    height: 4px;
+    margin-top: 4px;
+    width: 100%;
+    border-radius:10px;
+
+}
+
+.button {
+    background-color: black; /* Green */
+    border: 1em;
+    color: white;
+    padding: 1.25em 1.75em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .button:hover{
+      background-color: gold;
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+   
+   .content {
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        width: 500px;
+        border: 1cm;
+
+   }
+   .chessboard{
+       display: flex;
+       border: 10px;
+       border-color: black;
+       align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .buttons{
+       display: flex;
+       justify-content: space-between;
+       margin-left: auto;
+       margin-right: auto;
+   }
+  
